@@ -37,6 +37,7 @@ export const navHeading = [
         heading: "Help",
         link:"#"
     },
+    
 ]
 
 export const product = [

@@ -5,6 +5,9 @@ body{
     padding:0;
     font-family: "Open Sans", sans-serif;
 }
+.btn-close{
+    background-color: white !important;
+}
 
 @tailwind base;
 @tailwind components;

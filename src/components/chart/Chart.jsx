@@ -28,9 +28,9 @@ const Charts = () => {
  
   return (
     <section className="flex flex-wrap justify-between mt-10">
-        <div className="sm:w-[17.8rem] md:w-full lg:w-3/4">
+        <div className="sm:w-[17rem] md:w-full lg:w-3/4 ">
       <div className="h-full border shadow rounded-lg bg-white max-h-96">
-        <div className="flex justify-between mt-8 px-8">
+        <div className="flex justify-between mt-8 px-8 ">
           <div>
             <h4 className="font-bold text-xl">Overview</h4>
             <span className="text-xs text-gray-400">Monthly Earning</span>
@@ -59,7 +59,7 @@ const Charts = () => {
         </ResponsiveContainer>
       </div>
     </div>
-      <div className="w-[17.8rem]">
+      <div className="w-[17.8rem] sm:mt-4 xl:mt-0 xl:mr-4">
         <div className="h-full w-full border shadow rounded-lg bg-white max-h-96">
           <div className='mt-5 px-5 '>
             <h4 className='font-bold text-xl'>Customers</h4>
