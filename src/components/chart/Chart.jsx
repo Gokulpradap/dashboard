@@ -1,4 +1,4 @@
-import {React, useState, useEffect} from 'react';
+import {React} from 'react';
 import {
   BarChart,
   Bar,
@@ -25,21 +25,7 @@ const Charts = () => {
     { name: 'DEC', uv: 4120 },
   ];
   const maxUV = Math.max(...uData.map((item) => item.uv));
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setWindowWidth(window.innerWidth);
-    };
-
-    // Listen for window resize events
-    window.addEventListener('resize', handleResize);
-
-    // Clean up the event listener on component unmount
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
+ 
   return (
     <section className="flex flex-wrap justify-between mt-10">
         <div className="xs:w-full md:w-full lg:w-3/4 xl:w-3/4 2xl:w-3/4">
